@@ -20,9 +20,6 @@ license = {text = "MIT"}
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]
 
-[project.scripts]
-test = "pytest"
-
 [project.urls]
 Homepage = "https://github.com/pypa/sampleproject"
 Issues = "https://github.com/pypa/sampleproject/issues"
