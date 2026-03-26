@@ -1,0 +1,14 @@
+name: Format Code
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/ruff-action@v1
+      - name: Run tests
+        run: pytest || exit 1

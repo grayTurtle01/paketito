@@ -11,4 +11,4 @@ def resta(x: int, y: int) -> int:
 
 
 def triple(x):
-    return 3*x
+    return 3 * x
